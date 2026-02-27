@@ -3,7 +3,8 @@ import pokedex from "./images/pokedex.png"
 import InfoCard from "./InfoCard"
 export default function SitesContainer()
 {
-    return <div className="row justify-content-center">
+    return <div className="row justify-content-center my-3">
+            <h3 className="p-2 text-light"> Sites</h3>
             <InfoCard 
               name="Iso-Heikkilä's Clubroom Booking" 
               subtitle="React, css, JSON"

@@ -5,7 +5,8 @@ import heartsorePhoto from "./images/heartsore.png"
 import appleheistPhoto from "./images/appleheist.png"
 export default function GamesContainer()
 {
-    return <div className="row justify-content-center">
+    return <div className="row justify-content-center my-4">
+        <h3 className="p-2 text-light"> Games </h3>
         <InfoCard 
           name="Us, Somnia" 
           subtitle="Lead Programmer, Scrum dude"
